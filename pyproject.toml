@@ -1,0 +1,19 @@
+[project]
+name = "python-for-applied-ai"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Muhammad Rizwan", email = "rizwanse66@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "ipykernel>=7.3.0",
+]
+
+[project.scripts]
+python-for-applied-ai = "python_for_applied_ai:main"
+
+[build-system]
+requires = ["uv_build>=0.12.13,<0.13.0"]
+build-backend = "uv_build"
