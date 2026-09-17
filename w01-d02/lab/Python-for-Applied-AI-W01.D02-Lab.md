@@ -1,4 +1,4 @@
-# Python for Applied AI — Day 2
+# Python for Applied AI — Day 02
 
 ## Lab and homework worksheet
 
@@ -8,7 +8,7 @@
 |---|---|
 | Name | |
 | Trade | AI for Everyone — Python track |
-| Session / batch | Week 02, Day 02 |
+| Session / batch | Week 01, Day 02 |
 | Date | 09 September 2026 |
 
 > **The rule stands:** type it yourself first, ask the assistant second, retype anything you accept. Nothing on this sheet is pasted.
@@ -23,7 +23,7 @@
 4. The same message rewritten as an AI prompt.
 5. A small CSV or spreadsheet (optional).
 
-**Time needed:** 60 minutes of lab in class, about 20 minutes at home.
+**Time needed:** 60 minutes in class, about 20 minutes at home.
 
 ---
 
@@ -168,7 +168,7 @@ _______________________________________________________________________
 
 ### C5 · Now make it a prompt
 
-Rewrite the same thing as a prompt for an AI tool.
+Rewrite the same thing as a prompt for an AI tool. You need one new variable first — set `role` to the job you are writing as, for example `role = "a sales officer"`.
 
 ```python
 prompt = f"""You are {role} writing to {client_name}.
